@@ -1,0 +1,11 @@
+:root {
+    --custom-light: #FFFDFA;
+    --custom-dark: #333333;
+    --custom-primary: #B76E79;
+    --custom-secondary: #2589BD;
+    --custom-tertiary: #3AB795;
+}
+
+.container-fluid {
+    background-color: var(--custom-light);
+}
