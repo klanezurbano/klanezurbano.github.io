@@ -1,9 +1,9 @@
-import UnderMaintenancePage from "./pages/UnderMaintenancePage"
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
     <>
-      <UnderMaintenancePage />
+      <Navbar />
     </>
   )
 }
