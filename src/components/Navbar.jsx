@@ -2,19 +2,15 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import websiteLogo from '/logo-no-bg.png'
 import { Link } from "react-router-dom";
-
-const navigation = [
-  { name: 'Home', to: '/', current: true },
-  { name: 'Web Dev', to: '/webdev', current: false },
-  { name: 'Mentoring', to: '/mentor', current: false },
-  { name: 'Music', to: '/music', current: false },
-]
+import { useSelector } from "react-redux";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
 function Navbar() {
+  const navigation = useSelector(state => state.navigation)
+
   return (
     <Disclosure as="nav" className="bg-light">
       {({ open }) => (
