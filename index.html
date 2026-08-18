@@ -9,58 +9,85 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     
+    <style type="text/tailwindcss">
+        @theme {
+            --color-cream: #F4EDE4;
+            --color-ink: #1A1A1A;
+            --color-blush: #F0A7BD;
+            --color-gold: #EEC13E;
+            --color-rose: #C9527C;
+
+            /* Semantic aliases */
+            --color-background: var(--color-cream);
+            --color-foreground: var(--color-ink);
+
+            --color-primary: var(--color-blush);
+            --color-primary-foreground: var(--color-ink);
+
+            --color-secondary: var(--color-gold);
+            --color-secondary-foreground: var(--color-ink);
+
+            --color-accent: var(--color-rose);
+            --color-accent-foreground: var(--color-cream);
+
+            /* Optional UI colors */
+            --color-border: var(--color-ink);
+            --color-muted: #6F6963;
+        }
+    </style>
 </head>
-<body>
-    <header class="flex justify-between items-center">
-        <a href="index.html">
-            <img src="" alt="klane-zurbano-handwritten">
+<body class="bg-background">
+    <header class="flex justify-between items-center px-5 lg:px-10 lg:my-3">
+        <a href="index.html" class="w-50">
+            <img src="./images/klane-zurbano-handwritten.png" alt="klane-zurbano-handwritten">
         </a>
         
         <nav class="relative">
             <input type="checkbox" id="menu-toggle" class="hidden peer">
 
             <label for="menu-toggle" class="lg:hidden">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars fa-xl"></i>
             </label>
             
-            <div class="absolute right-0 lg:static w-30 lg:w-auto hidden lg:flex peer-checked:flex flex-col lg:flex-row lg:gap-10 lg:items-center">
+            <div class="absolute -inset-e-5 lg:static bg-background w-50 lg:w-auto px-5 hidden lg:flex peer-checked:flex flex-col lg:flex-row lg:gap-10 lg:items-center">
 
-                <div class="flex flex-col lg:flex-row lg:gap-5 m-2">
+                <div class="flex flex-col lg:flex-row gap-1 lg:gap-10 m-2">
                     <a href="index.html">Home</a>
                     <a href="developer.html">Developer</a>
                     <a href="music.html">Music</a>
                 </div>
 
-                <hr class="lg:hidden mx-5">
+                <hr class="lg:hidden">
 
-                <div class="lg:hidden flex flex-col m-2">
+                <div class="lg:hidden flex flex-col m-2 gap-2">
                     <!-- SOCMED MOBILE VIEW -->
                     <!-- TODO: REPLACE WITH REAL LINKS AND ICONS -->
                     <a href="">
-                        <i class="fa-solid fa-bars"></i> <span>Spotify</span>
+                        <i class="fa-brands fa-spotify"></i> <span>Spotify</span>
                     </a>
                      <a href="">
-                        <i class="fa-solid fa-bars"></i> <span>Instagram</span>
+                        <i class="fa-brands fa-instagram"></i> <span>Instagram</span>
                     </a>
                      <a href="">
-                        <i class="fa-solid fa-bars"></i> <span>YouTube</span>
+                        <i class="fa-brands fa-youtube"></i> <span>YouTube</span>
                     </a>
                      <a href="">
-                        <i class="fa-solid fa-bars"></i> <span>Email</span>
+                        <i class="fa-regular fa-envelope"></i> <span>Email</span>
                     </a>
                 </div>
 
                 <div class="hidden lg:flex lg:gap-5">
                     <!-- SOCMED DESKTOP VIEW -->
                     <!-- TODO: REPLACE WITH REAL LINKS AND ICONS -->
-                    <i class="fa-solid fa-bars"></i>
-                    <i class="fa-solid fa-bars"></i>
-                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-brands fa-spotify"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-regular fa-envelope"></i>
                 </div>
 
-                <hr class="lg:hidden mx-5">
+                <hr class="lg:hidden">
 
-                <button class="m-2">Let's Talk</button>
+                <button class="bg-primary mx-2 my-4 px-5 py-1 rounded-lg">Let's Talk →</button>
             </div>
         </nav>
 
