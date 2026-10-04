@@ -1,159 +1,383 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Klane Zurbano</title>
-    
-    <!-- IMPORTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    
-    <style type="text/tailwindcss">
-        @theme {
-            --color-cream: #F4EDE4;
-            --color-ink: #1A1A1A;
-            --color-blush: #F0A7BD;
-            --color-gold: #EEC13E;
-            --color-rose: #C9527C;
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Klane Zurbano | Singer-Songwriter &amp; Software Developer</title>
+<meta name="description" content="Singer-songwriter and software developer Klane Zurbano. Hear her originals on Spotify, book a live acoustic set, or hire her for websites and web apps.">
+<meta name="author" content="Klane Zurbano">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://klanezurbano.github.io/">
+<meta name="theme-color" content="#FCF8F3">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Klane Zurbano">
+<meta property="og:title" content="Klane Zurbano | Singer-Songwriter &amp; Software Developer">
+<meta property="og:description" content="Singer-songwriter and software developer Klane Zurbano. Hear her originals on Spotify, book a live acoustic set, or hire her for websites and web apps.">
+<meta property="og:url" content="https://klanezurbano.github.io/">
+<meta property="og:image" content="https://klanezurbano.github.io/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Klane Zurbano singing into a microphone, next to her name and title">
+<meta property="og:locale" content="en_PH">
+<meta property="profile:first_name" content="Klane">
+<meta property="profile:last_name" content="Zurbano">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Klane Zurbano | Singer-Songwriter &amp; Software Developer">
+<meta name="twitter:description" content="Singer-songwriter and software developer Klane Zurbano. Hear her originals on Spotify, book a live acoustic set, or hire her for websites and web apps.">
+<meta name="twitter:image" content="https://klanezurbano.github.io/og-image.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://klanezurbano.github.io/#website", "url": "https://klanezurbano.github.io/", "name": "Klane Zurbano", "inLanguage": "en"}, {"@type": "Person", "@id": "https://klanezurbano.github.io/#person", "name": "Klane Zurbano", "alternateName": "Kara Lane Zurbano", "url": "https://klanezurbano.github.io/", "image": "https://klanezurbano.github.io/og-image.jpg", "jobTitle": ["Singer-songwriter", "Software developer"], "email": "mailto:klanezurbano@gmail.com", "sameAs": ["https://open.spotify.com/artist/1wFRu64NZriDNjMnAuJuqc", "https://www.instagram.com/klanezurbano/", "https://youtube.com/klanezurbano", "https://www.facebook.com/klanemusic/", "https://www.linkedin.com/in/kara-lane-zurbano/"]}, {"@type": "MusicGroup", "@id": "https://klanezurbano.github.io/#artist", "name": "Klane Zurbano", "url": "https://open.spotify.com/artist/1wFRu64NZriDNjMnAuJuqc", "member": {"@id": "https://klanezurbano.github.io/#person"}, "track": [{"@type": "MusicRecording", "name": "My Superman (Remastered)", "url": "https://open.spotify.com/track/74ChhtMUKwyONAmWaMMir4", "byArtist": {"@id": "https://klanezurbano.github.io/#artist"}}, {"@type": "MusicRecording", "name": "Sobrang Napaka", "url": "https://open.spotify.com/track/29hqU2Z4bvyQ2tg3IaTg0Q", "byArtist": {"@id": "https://klanezurbano.github.io/#artist"}}, {"@type": "MusicRecording", "name": "Metronome", "url": "https://open.spotify.com/track/0iIub0cqKLQlSiJvk20Vg8", "byArtist": {"@id": "https://klanezurbano.github.io/#artist"}}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --page:#F4EDE4;--card:#FCF8F3;--ink:#1A1A1A;--text:#3d3833;--muted:#766d64;--line:#e9dfd3;
+  --rose:#C9527C;--rose-d:#b2416a;--blush:#F0A7BD;--blush-t:#f9dde5;--gold:#EEC13E;--gold-t:#f8e6ad;--band:#f9dde5;
+  --gut:max(clamp(1.25rem,4vw,3.5rem),calc((100% - 1180px) / 2 + 3.5rem));
+  --f:"Plus Jakarta Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--page:#161514;--card:#1f1d1b;--ink:#F4EDE4;--text:#ddd4ca;--muted:#a59b90;--line:#34302c;--blush-t:#3d2530;--gold-t:#3d3420;--band:#2c2024}}
+:root[data-theme="dark"]{--page:#161514;--card:#1f1d1b;--ink:#F4EDE4;--text:#ddd4ca;--muted:#a59b90;--line:#34302c;--blush-t:#3d2530;--gold-t:#3d3420;--band:#2c2024}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .sig{filter:invert(1)}}
+:root[data-theme="dark"] .sig{filter:invert(1)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 80px)}
+body{margin:0;overflow-x:clip;background:var(--card);color:var(--text);font-family:var(--f);font-size:.95rem;line-height:1.65;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--rose);outline-offset:3px;border-radius:4px}
+h1,h2,h3,h4{color:var(--ink);margin:0}
+.sheet{background:var(--card)}
+.pad{padding-inline:var(--gut)}
+.arrow{display:inline-block;transition:transform .25s}
+a:hover .arrow{transform:translateX(4px)}
 
-            /* Semantic aliases */
-            --color-background: var(--color-cream);
-            --color-foreground: var(--color-ink);
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--card) 94%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.top .row{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;height:76px}
+.sig{height:34px;width:auto}
+.menu{display:flex;align-items:center;gap:2.2rem}
+.menu nav{display:contents}
+.menu ul{display:flex;gap:2.2rem;list-style:none;margin:0;padding:0}
+.menu ul a{text-decoration:none;font-weight:500;color:var(--ink);padding:.4rem 0;position:relative}
+.menu ul a::after{content:"";position:absolute;left:0;right:0;bottom:-.35rem;height:3px;background:var(--blush);transform:scaleX(0);transition:transform .25s}
+.menu ul a:hover::after,.menu ul a.on::after{transform:scaleX(1)}
+.menu ul a.on{font-weight:600}
+.icons{display:flex;gap:1.1rem;align-items:center}
+.icons a{display:grid;place-items:center;width:28px;height:28px;color:var(--ink);transition:color .2s,transform .2s}
+.icons a:hover{color:var(--ink);opacity:.65;transform:translateY(-2px)}
+.icons svg{width:22px;height:22px}
+.btn{display:inline-flex;align-items:center;gap:.5rem;background:var(--ink);color:var(--page);text-decoration:none;font-weight:600;padding:.7rem 1.2rem;border-radius:6px;transition:background .2s,transform .2s,box-shadow .2s;box-shadow:0 6px 16px -10px rgba(0,0,0,.6)}
+.btn:hover{background:var(--blush);color:#1A1A1A;transform:translateY(-1px)}
+.burger{display:none;background:none;border:0;padding:.4rem;color:var(--ink);cursor:pointer}
+.burger svg{width:24px;height:24px}
 
-            --color-primary: var(--color-blush);
-            --color-primary-foreground: var(--color-ink);
+/* hero */
+.hero{padding-left:var(--gut);display:grid;grid-template-columns:1fr 1.05fr;min-height:clamp(340px,35vw,420px);border-bottom:1px solid var(--line)}
+.hero .copy{padding:clamp(1.75rem,3.2vw,2.6rem) 0 clamp(1.75rem,3.2vw,2.4rem) 0;align-self:center;position:relative;z-index:2}
+h1{font-size:clamp(2rem,3.9vw,3rem);line-height:1.08;font-weight:700;letter-spacing:-.025em;margin-bottom:1.2rem}
+h1 .dot{color:var(--rose)}
+.hero p{font-size:1.02rem;max-width:38ch;margin:0 0 1.8rem}
+.hero .where{font-size:.9rem;color:var(--muted);margin:0 0 1.8rem;display:flex;align-items:center;gap:.5rem}
+.hero .where i{width:8px;height:8px;border-radius:50%;background:var(--gold);flex:none}
+.hero .pic{position:relative;margin:0;margin-left:-6%}
+.hero .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:62% 22%;-webkit-mask-image:linear-gradient(to right,transparent 0,#000 34%);mask-image:linear-gradient(to right,transparent 0,#000 34%)}
+.js .hero .copy>*{opacity:0;transform:translateY(14px);transition:opacity .7s,transform .7s cubic-bezier(.2,.8,.2,1)}
+.js .hero .copy>*:nth-child(2){transition-delay:.12s}.js .hero .copy>*:nth-child(3){transition-delay:.24s}.js .hero .copy>*:nth-child(4){transition-delay:.32s}
+.js .hero .pic img{opacity:0;transform:scale(1.04);transition:opacity 1.1s .1s,transform 1.6s cubic-bezier(.2,.8,.2,1) .1s}
+.loaded .hero .copy>*{opacity:1;transform:none}
+.loaded .hero .pic img{opacity:1;transform:none}
 
-            --color-secondary: var(--color-gold);
-            --color-secondary-foreground: var(--color-ink);
+/* services */
+.services{display:grid;grid-template-columns:repeat(3,1fr);padding-block:2.4rem}
+.svc{display:grid;grid-template-columns:auto 1fr;gap:1.1rem;padding:0 1.6rem}
+.svc>div:last-child{display:flex;flex-direction:column;align-items:flex-start;height:100%}
+.svc .more{margin-top:auto}
+.svc+.svc{border-left:1px solid var(--line)}
+.svc:first-child{padding-left:0}.svc:last-child{padding-right:0}
+.ic{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:var(--blush-t);color:var(--ink);transition:transform .3s}
+.ic.gold{background:var(--gold-t)}
+.ic svg{width:28px;height:28px}
+.svc:hover .ic{transform:rotate(-6deg) scale(1.05)}
+.kick{display:block;color:var(--muted);font-weight:600;letter-spacing:.14em;font-size:.72rem;line-height:1.2;margin-bottom:.15rem}
+.svc h3{font-size:1rem;font-weight:600;margin:.2rem 0 .6rem}
+.svc p{margin:0 0 .9rem;font-size:.88rem;color:var(--text)}
+.more{color:var(--ink);font-weight:600;text-decoration:none;font-size:.9rem;background:linear-gradient(var(--blush),var(--blush)) 0 100%/100% 3px no-repeat;padding-bottom:2px}
 
-            --color-accent: var(--color-rose);
-            --color-accent-foreground: var(--color-cream);
+/* info row */
+.info{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line);margin-inline:var(--gut)}
+.acc{padding:1.8rem 1.4rem 2rem;position:relative}
+.acc:nth-child(odd){padding-left:0;padding-right:2.6rem}
+.acc:nth-child(even){padding-left:2.6rem;padding-right:0;border-left:1px solid var(--line)}
+.acc:nth-child(n+3){border-top:1px solid var(--line)}
+.acc:first-child{padding-left:0}.acc:last-child{padding-right:0}
+.acc summary{list-style:none;cursor:pointer;font-weight:700;color:var(--ink);font-size:.98rem;display:flex;justify-content:space-between;align-items:center}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary::after{content:"";width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);transition:transform .25s;margin-right:4px}
+.acc[open] summary::after{transform:rotate(-135deg)}
+.wide .acc summary{cursor:default;pointer-events:none}
+.wide .acc summary::after{display:none}
+.acc .uline{display:block;width:34px;height:3px;background:var(--blush);margin:.55rem 0 1.2rem}
+.acc .sub{font-size:.98rem;font-weight:700;color:var(--ink);margin:1.6rem 0 0}
+.acc summary h2{font:inherit;color:inherit;margin:0}
+.acc h3{font-size:1.08rem;line-height:1.35;font-weight:700;margin-bottom:.9rem}
+.acc p{font-size:.88rem;margin:0 0 1rem}
+.stats{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.9rem}
+.stats li{display:flex;flex-direction:column;align-items:flex-start;gap:.8rem;font-weight:600;color:var(--ink);font-size:.9rem;line-height:1.35;padding:1.1rem 1rem 1.2rem;border:1px solid var(--line);border-radius:10px;background:var(--page)}
+.stats .ic{width:42px;height:42px;flex:none}.stats .ic svg{width:20px;height:20px}
+.songs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem}
+.song{display:flex;flex-direction:column;gap:.75rem;text-decoration:none;color:var(--ink)}
+.song:hover .cover{transform:translateY(-3px);box-shadow:0 12px 22px -14px rgba(0,0,0,.55)}
+.song .meta{display:flex;flex-direction:column;min-width:0}
+.song b{font-weight:600;font-size:1rem;line-height:1.3}
+.song small{font-size:.8rem;color:var(--muted);display:inline-flex;align-items:center;gap:.3rem;margin-top:.15rem}
+.cover{width:100%;flex:none;aspect-ratio:1;border-radius:6px;overflow:hidden;position:relative;background:var(--line);transition:transform .3s,box-shadow .3s}
+.song:hover .cover{transform:translateY(-3px);box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
+.c1{background:linear-gradient(170deg,#3a2230 0%,#a8475f 48%,#eba45a 100%)}
+.c2{background:linear-gradient(170deg,#1c2738 0%,#5d4a63 52%,#e19c6b 100%)}
+.c3{background:var(--gold-t);color:#5b4a1d}
+.c3 svg{position:absolute;left:50%;top:14%;width:34%;transform:translateX(-50%);color:#8a6d1f}
+.cover img{width:100%;height:100%;object-fit:cover}
+.team-row{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;align-items:start}
+.team{border-radius:8px;overflow:hidden;aspect-ratio:5/4}
+.team img{width:100%;height:100%;object-fit:cover;object-position:50% 58%}
+.name{color:var(--ink);font-weight:700;font-size:1.02rem;margin:0 0 .35rem!important}
+.doodle{position:absolute;color:var(--blush);pointer-events:none}
+.doodle path{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.draw path{stroke-dasharray:var(--len,300);stroke-dashoffset:var(--len,300);transition:stroke-dashoffset 1.6s cubic-bezier(.4,0,.2,1)}
+.draw.seen path{stroke-dashoffset:0}
 
-            /* Optional UI colors */
-            --color-border: var(--color-ink);
-            --color-muted: #6F6963;
+/* cta band */
+.band{margin:0 var(--gut) 2rem;background:var(--band);border-radius:12px;display:grid;grid-template-columns:170px 1fr;align-items:center;gap:clamp(2rem,5vw,4rem);padding:1.4rem 2.4rem;position:relative;overflow:hidden}
+.band .art{color:var(--ink);width:170px}
+.band .art path,.band .art rect,.band .art circle,.band .art ellipse{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.band h2{font-size:1.45rem;font-weight:700;margin-bottom:.3rem}
+.band p{margin:0 0 1.1rem;max-width:72ch}
+.band .acts{display:flex;align-items:center;gap:1.6rem;flex-wrap:wrap}
+.mail{display:inline-flex;align-items:center;gap:.6rem;font-weight:600;color:var(--ink);text-decoration:none}
+.mail svg{width:20px;height:20px}
+.mail:hover{opacity:.65}
+.star{left:calc(2.4rem + 150px);top:12%;width:34px;color:var(--gold)}
+.star path{stroke:var(--gold)!important}
 
-            /* Typography */
-            --font-sans: "Plus Jakarta Sans", sans-serif;
-        }
-    </style>
+/* footer */
+footer .row{display:grid;grid-template-columns:auto 1fr auto auto;gap:2rem;align-items:center;padding-block:1.6rem 2rem;border-top:1px solid var(--line);margin-inline:var(--gut)}
+footer .tag{font-size:.86rem;padding-left:2rem;border-left:1px solid var(--line);line-height:1.5}
+footer small{font-size:.8rem;color:var(--muted);line-height:1.5}
+footer .sig{height:30px}
+
+.hero>*,.info>*,.services>*,.band>*{min-width:0}
+
+@media (max-width:980px){
+  .burger{display:block}
+  .menu{display:none;position:absolute;top:76px;left:0;right:0;background:var(--card);flex-direction:column;align-items:flex-start;gap:1.2rem;padding:1.2rem var(--gut) 1.6rem;border-bottom:1px solid var(--line)}
+  .menu.open{display:flex}
+  .menu ul{flex-direction:column;gap:.9rem}
+  .hero{grid-template-columns:1fr}
+  .hero .pic{order:-1;margin:0;aspect-ratio:16/10}
+  .hero .pic img{object-position:55% 25%;-webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent);mask-image:linear-gradient(to bottom,#000 70%,transparent)}
+  .hero{padding-left:0}
+  .hero .copy{padding:1.2rem var(--gut) 2rem}
+  .info{grid-template-columns:1fr}
+  .acc{padding:1.1rem 0}
+  .acc:nth-child(n){padding-left:0;padding-right:0;border-left:0}
+  .acc+.acc{border-top:1px solid var(--line)}
+  .acc[open]{padding-bottom:1.6rem}
+  .band{grid-template-columns:1fr;text-align:center;padding:1.8rem 1.4rem}
+  .band .art,.band .star,.doodle.heart{display:none}
+  .team-row{grid-template-columns:1fr}
+  .stats{grid-template-columns:1fr;gap:.6rem}
+  .stats li{flex-direction:row;align-items:center;padding:.7rem .9rem}
+  .songs{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--line)}
+  .song{flex-direction:row;align-items:center;gap:1rem;padding:.85rem 0;border-bottom:1px solid var(--line)}
+  .cover{width:64px}
+  .band .acts{justify-content:center;flex-direction:column;gap:1rem}
+  footer .row{grid-template-columns:1fr;gap:1rem}
+  footer .tag{border-left:0;padding-left:0}
+}
+@media (max-width:700px){
+  .services{grid-template-columns:repeat(3,1fr);padding-block:1.6rem}
+  .svc{grid-template-columns:1fr;text-align:center;justify-items:center;padding:0 .4rem;gap:.5rem}
+  .svc:first-child{padding-left:0}.svc:last-child{padding-right:0}
+  .svc p,.svc .more{display:none}
+  .svc h3{font-size:.8rem;font-weight:500;margin:0}
+  .kick{font-size:.64rem;letter-spacing:.1em}
+  .svc>div:last-child{align-items:center}
+  .ic{width:44px;height:44px}.ic svg{width:22px;height:22px}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}html{scroll-behavior:auto}}
+</style>
 </head>
-<body class="bg-background text-foreground font-sans">
-    <header class="flex justify-between items-center px-5 lg:px-10 lg:my-3">
-        <a href="index.html" class="w-50">
-            <img src="./images/klane-zurbano-handwritten.png" alt="klane-zurbano-handwritten">
-        </a>
-        
-        <nav class="relative">
-            <input type="checkbox" id="menu-toggle" class="hidden peer">
+<body>
+<script>document.documentElement.classList.add('js')</script>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-spotify" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="M6.5 9.3c3.8-1.1 8-.8 11.2 1M7.2 12.4c3-.8 6.4-.5 9 .9M7.9 15.3c2.4-.6 4.8-.4 6.9.7" fill="none" stroke="var(--card)" stroke-width="1.7" stroke-linecap="round"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/></symbol>
+  <symbol id="i-yt" viewBox="0 0 24 24"><rect x="1.5" y="4.5" width="21" height="15" rx="4.5" fill="currentColor"/><path d="M10 8.8v6.4l5.4-3.2z" fill="var(--card)"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="M13.3 20v-6.6h2.2l.4-2.6h-2.6V9.2c0-.8.3-1.3 1.4-1.3h1.3V5.6c-.3 0-1-.1-2-.1-2 0-3.3 1.2-3.3 3.4v1.9H8.5v2.6h2.2V20z" fill="var(--card)"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 6l9 7 9-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M13.5 5l-3 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-note" viewBox="0 0 24 24"><path d="M9 18V5l11-2v13" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="6" cy="18" r="3" fill="currentColor"/><circle cx="17" cy="16" r="3" fill="currentColor"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><rect x="8.5" y="2.5" width="7" height="12" rx="3.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 11a7 7 0 0014 0M12 18v3.5M8.5 21.5h7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.8-4.5 4.3 1.1 6.1L12 16.9l-5.4 2.9 1.1-6.1-4.5-4.3 6.1-.8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0112 7.3a4.3 4.3 0 017.5 2.5C19.5 15.4 12 20 12 20z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 16 16"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
 
-            <label for="menu-toggle" class="lg:hidden">
-                <i class="fa-solid fa-bars fa-xl"></i>
-            </label>
-            
-            <div class="absolute -inset-e-5 lg:static bg-background w-50 lg:w-auto px-5 hidden lg:flex peer-checked:flex flex-col lg:flex-row lg:gap-10 lg:items-center">
+<div class="sheet">
+<header class="top"><div class="row pad">
+  <a href="#top" aria-label="Klane Zurbano, home"><img class="sig" src="assets/signature.png" alt="Klane Zurbano" width="582" height="114"></a>
+  <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  <div class="menu" id="menu">
+    <nav aria-label="Main"><ul>
+      <li><a href="#write">Music</a></li>
+      <li><a href="#build">Code</a></li>
+      <li><a href="#perform">Events</a></li>
+    </ul></nav>
+    <div class="icons">
+      <a href="https://open.spotify.com/artist/1wFRu64NZriDNjMnAuJuqc" target="_blank" rel="me noopener" aria-label="Spotify"><svg><use href="#i-spotify"/></svg></a>
+      <a href="https://www.instagram.com/klanezurbano/" target="_blank" rel="me noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
+      <a href="https://youtube.com/klanezurbano" target="_blank" rel="me noopener" aria-label="YouTube"><svg><use href="#i-yt"/></svg></a>
+      <a href="https://www.facebook.com/klanemusic/" target="_blank" rel="me noopener" aria-label="Facebook"><svg><use href="#i-fb"/></svg></a>
+      <a href="mailto:klanezurbano@gmail.com" aria-label="Email"><svg><use href="#i-mail"/></svg></a>
+    </div>
+    <a class="btn" href="#talk">Let's talk <svg class="arrow" width="16" height="16"><use href="#i-arrow"/></svg></a>
+  </div>
+</div></header>
 
-                <div class="flex flex-col lg:flex-row gap-1 lg:gap-10 m-2">
-                    <a href="index.html">Home</a>
-                    <a href="developer.html">Developer</a>
-                    <a href="music.html">Music</a>
-                </div>
+<main id="top">
+<section class="hero">
+  <div class="copy">
+    <h1>Singer-songwriter<br>&amp; software developer<span class="dot">.</span></h1>
+    <p>I write original songs and build websites and web apps. I also play live acoustic sets at weddings and private events.</p>
+    <div><a class="btn" href="https://open.spotify.com/artist/1wFRu64NZriDNjMnAuJuqc" target="_blank" rel="me noopener">Hear my originals <svg class="arrow" width="16" height="16"><use href="#i-arrow"/></svg></a></div>
+  </div>
+  <figure class="pic"><img width="1100" height="1375" fetchpriority="high" src="assets/hero.jpg" alt="Klane singing into a handheld mic with her eyes closed, warm bulbs glowing behind her"></figure>
+</section>
 
-                <hr class="lg:hidden">
+<section class="services pad" aria-label="What I do">
+  <div class="svc" id="write">
+    <div class="ic gold"><svg><use href="#i-note"/></svg></div>
+    <div><span class="kick">WRITE</span><h3>Original music</h3>
+      <p>My Superman, Sobrang Napaka, Metronome and more are on Spotify.</p>
+      <a class="more" href="https://open.spotify.com/artist/1wFRu64NZriDNjMnAuJuqc" target="_blank" rel="me noopener">Listen to my music <svg class="arrow" width="14" height="14"><use href="#i-arrow"/></svg></a></div>
+  </div>
+  <div class="svc" id="build">
+    <div class="ic"><svg><use href="#i-code"/></svg></div>
+    <div><span class="kick">BUILD</span><h3>Websites &amp; web apps</h3>
+      <p>For small businesses and creatives, from the site to the automation behind it.</p>
+      <a class="more" href="https://www.linkedin.com/in/kara-lane-zurbano/" target="_blank" rel="me noopener">My dev background <svg class="arrow" width="14" height="14"><use href="#i-arrow"/></svg></a></div>
+  </div>
+  <div class="svc" id="perform">
+    <div class="ic"><svg><use href="#i-mic"/></svg></div>
+    <div><span class="kick">PERFORM</span><h3>Live acoustic music</h3>
+      <p>Solo or duo sets for weddings, birthdays and private or corporate events.</p>
+      <a class="more" href="#talk">Book a performance <svg class="arrow" width="14" height="14"><use href="#i-arrow"/></svg></a></div>
+  </div>
+</section>
 
-                <div class="lg:hidden flex flex-col m-2 gap-2">
-                    <!-- SOCMED MOBILE VIEW -->
-                    <a href="https://open.spotify.com/artist/1wFRu64NZriDNjMnAuJuqc">
-                        <i class="fa-brands fa-spotify"></i> <span>Spotify</span>
-                    </a>
-                     <a href="https://www.instagram.com/klanezurbano/">
-                        <i class="fa-brands fa-instagram"></i> <span>Instagram</span>
-                    </a>
-                     <a href="https://www.youtube.com/klanezurbano">
-                        <i class="fa-brands fa-youtube"></i> <span>YouTube</span>
-                    </a>
-                     <a href="mailto:klanezurbano@gmail.com">
-                        <i class="fa-regular fa-envelope"></i> <span>Email</span>
-                    </a>
-                </div>
+<section class="info" id="about">
+  <details class="acc" open id="songs">
+    <summary><h2>A few I've written</h2></summary>
+    <span class="uline"></span>
+    <div class="songs">
+      <a class="song" href="https://open.spotify.com/track/74ChhtMUKwyONAmWaMMir4" target="_blank" rel="noopener"><div class="cover"><img loading="lazy" decoding="async" src="assets/cover-my-superman.jpg" alt="My Superman (Remastered) cover art" width="300" height="300"></div><span class="meta"><b>My Superman</b><small>Listen on Spotify <svg class="arrow" width="12" height="12"><use href="#i-arrow"/></svg></small></span></a>
+      <a class="song" href="https://open.spotify.com/track/29hqU2Z4bvyQ2tg3IaTg0Q" target="_blank" rel="noopener"><div class="cover"><img loading="lazy" decoding="async" src="assets/cover-sobrang-napaka.jpg" alt="Sobrang Napaka cover art: a bitten pink ice-cream bar" width="360" height="360"></div><span class="meta"><b>Sobrang Napaka</b><small>Listen on Spotify <svg class="arrow" width="12" height="12"><use href="#i-arrow"/></svg></small></span></a>
+      <a class="song" href="https://open.spotify.com/track/0iIub0cqKLQlSiJvk20Vg8" target="_blank" rel="noopener"><div class="cover"><img loading="lazy" decoding="async" src="assets/cover-metronome.jpg" alt="Metronome cover art: a hand-drawn metronome on lavender" width="300" height="300"></div><span class="meta"><b>Metronome</b><small>Listen on Spotify <svg class="arrow" width="12" height="12"><use href="#i-arrow"/></svg></small></span></a>
+    </div>
+  </details>
+  <details class="acc" open>
+    <summary><h2>A little about me</h2></summary>
+    <span class="uline"></span>
+    <h3>I write songs, and I've been writing code for 11 years.</h3>
+    <p>Code has been my career, and songwriting is the part I'm putting more of myself into now. I finish songs slowly, and I'm working on the next ones.</p>
+    <p>When a song's bridge isn't working, I go at it the way I'd go at a bug. Find the part that's off, change one thing, play it again.</p>
+    <svg class="doodle draw heart" style="right:1.4rem;top:1.55rem;width:34px" viewBox="0 0 60 50" aria-hidden="true"><path style="--len:190" d="M30 42C14 30 6 22 9 13c3-8 14-8 19 1 4-10 17-10 19-1 2 10-8 20-18 29M4 47c8 2 18 1 26-5"/></svg>
+  </details>
+  <details class="acc" open>
+    <summary><h2>Quick facts</h2></summary>
+    <span class="uline"></span>
+    <ul class="stats">
+      <li><span class="ic"><svg><use href="#i-spotify"/></svg></span>Original music on Spotify</li>
+      <li><span class="ic gold"><svg><use href="#i-code"/></svg></span>11 years building software</li>
+      <li><span class="ic"><svg><use href="#i-mic"/></svg></span>Solo or duo sets at paid events</li>
+    </ul>
+  </details>
+  <details class="acc" open>
+    <summary><h2>Meet the management team</h2></summary>
+    <span class="uline"></span>
+    <div class="team-row">
+    <div class="team"><img width="900" height="900" loading="lazy" decoding="async" src="assets/management-team.jpg" alt="Klane sitting with her guitar and her two white Maltese, Wanda and Tasha"></div>
+    <div><p class="name">Wanda &amp; Tasha</p>
+    <p>Two Maltese who occasionally accompany their furmom on busking adventures. They contribute absolutely nothing to the business, but morale is excellent.</p></div>
+    </div>
+  </details>
+</section>
 
-                <div class="hidden lg:flex lg:gap-5">
-                    <!-- SOCMED DESKTOP VIEW -->
-                    <a href="https://open.spotify.com/artist/1wFRu64NZriDNjMnAuJuqc">
-                        <i class="fa-brands fa-spotify"></i>
-                    </a>
-                     <a href="https://www.instagram.com/klanezurbano/">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                     <a href="https://www.youtube.com/klanezurbano">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                     <a href="mailto:klanezurbano@gmail.com">
-                        <i class="fa-regular fa-envelope"></i>
-                    </a>
-                </div>
+<section class="band" id="talk">
+  <svg class="art" viewBox="0 0 260 150" aria-hidden="true">
+    <path d="M40 8l6 4-4 60"/><path d="M38 10l3 2"/>
+    <path d="M42 72c-14-2-24 8-20 22-10 6-10 26 4 34 12 7 30 2 34-12 3-12-6-20-12-22 3-10-2-20-6-22z"/>
+    <circle cx="40" cy="100" r="6"/><path d="M30 120h18"/>
+    <path d="M12 96c-6-6-6-16 0-20M14 86c-6 0-9-4-8-8M10 108c-6 2-8 6-6 10"/>
+    <rect x="96" y="40" width="96" height="62" rx="5"/><rect x="104" y="48" width="80" height="46" rx="2"/>
+    <path d="M84 112h120l-10-10H94z"/>
+    <path d="M136 64l-7 7 7 7M152 64l7 7-7 7M147 61l-6 20"/>
+    <path d="M206 108h22v14c0 6-4 9-11 9s-11-3-11-9z"/><path d="M228 112c6 0 6 8 0 8"/><path d="M200 132h34"/>
+  </svg>
+  <div>
+    <h2>Work with me</h2>
+    <p>For events, send your date, venue and the kind of event. For dev work, tell me what you want built.</p>
+    <div class="acts">
+      <a class="btn" href="mailto:klanezurbano@gmail.com">Email me <svg class="arrow" width="16" height="16"><use href="#i-arrow"/></svg></a>
+      <a class="mail" href="mailto:klanezurbano@gmail.com"><svg><use href="#i-mail"/></svg>klanezurbano@gmail.com</a>
+    </div>
+  </div>
+  <svg class="doodle draw star" viewBox="0 0 24 24" aria-hidden="true"><path style="--len:80" d="M12 3l2.7 5.6 6.1.8-4.5 4.3 1.1 6.1L12 16.9l-5.4 2.9 1.1-6.1-4.5-4.3 6.1-.8z"/></svg>
+</section>
+</main>
 
-                <hr class="lg:hidden">
+<footer><div class="row">
+  <img class="sig" src="assets/signature.png" alt="Klane Zurbano" width="582" height="114">
+  <p class="tag">Singer-songwriter and software developer.</p>
+  <div class="icons">
+    <a href="https://open.spotify.com/artist/1wFRu64NZriDNjMnAuJuqc" target="_blank" rel="me noopener" aria-label="Spotify"><svg><use href="#i-spotify"/></svg></a>
+    <a href="https://www.instagram.com/klanezurbano/" target="_blank" rel="me noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
+    <a href="https://youtube.com/klanezurbano" target="_blank" rel="me noopener" aria-label="YouTube"><svg><use href="#i-yt"/></svg></a>
+      <a href="https://www.facebook.com/klanemusic/" target="_blank" rel="me noopener" aria-label="Facebook"><svg><use href="#i-fb"/></svg></a>
+    <a href="mailto:klanezurbano@gmail.com" aria-label="Email"><svg><use href="#i-mail"/></svg></a>
+  </div>
+  <small>© 2026 Klane Zurbano.<br>All rights reserved.</small>
+</div></footer>
+</div>
 
-                <!-- TODO: FIX BEHAVIOR ON BUTTON CLICK -->
-                <button class="bg-primary text-primary-foreground font-semibold mx-2 my-4 px-5 py-1 rounded-lg">Let's Talk →</button>
-            </div>
-        </nav>
+<script>
+(function(){
+  var d=document.documentElement,done=false;
+  function go(){if(done)return;done=true;requestAnimationFrame(function(){requestAnimationFrame(function(){d.classList.add('loaded')})})}
+  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(go);
+  window.addEventListener('load',go);setTimeout(go,1200);
 
-    </header>
+  var b=document.querySelector('.burger'),m=document.getElementById('menu');
+  b.addEventListener('click',function(){var o=m.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+  m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){m.classList.remove('open');b.setAttribute('aria-expanded','false')})});
 
-    <main>
-        <!-- HERO SECTION -->
-        <section class="flex flex-col lg:flex-row-reverse">
-            <img src="./images/hero-img.png" alt="hero-img" class="lg:w-3/5">
-            <div class="flex flex-col gap-3 lg:gap-8 items-start lg:justify-center m-5 lg:mx-15">
-                <h3 class="text-3xl font-extrabold">Software developer<br>& musician<span>.</span></h3>
-                <p>I like building things — sometimes with logic, sometimes with creativity. I build websites and web apps, write original songs, and perform live for events.</p>
-                <button class="bg-primary text-primary-foreground font-semibold px-5 py-1 rounded-lg">See what I do →</button>
-            </div>
-        </section>
+  var info=document.querySelector('.info'),accs=info.querySelectorAll('details'),mq=matchMedia('(min-width:981px)');
+  function sync(){info.classList.toggle('wide',mq.matches);accs.forEach(function(x,i){x.open=mq.matches||(x.dataset.u==='1')})}
+  accs.forEach(function(x){x.addEventListener('toggle',function(){if(!mq.matches)x.dataset.u=x.open?'1':''})});
+  sync();mq.addEventListener?mq.addEventListener('change',sync):mq.addListener(sync);
+  info.addEventListener('click',function(e){if(mq.matches&&e.target.closest('summary'))e.preventDefault()});
 
-        <!-- FEATURE SECTION -->
-        <section class="flex lg:justify-between">
-            <!-- TODO: AFTER STYLING BUILD SECTION, COPY STYLE TO OTHERS AND UPDATE CONTENTS -->
-            <div class="flex flex-col lg:flex-row items-center">
-                <img src="" alt="build-icon">
-                <div class="flex flex-col items-center lg:items-start">
-                    <h4>BUILD</h4>
-                    <h5 class="text-center">Websites & web apps</h5>
-                    <p class="hidden lg:block">I build digital products for individuals, small businesses, and startups.</p>
-                    <button>Explore development →</button>
-                </div>
-            </div>
-            <div class="flex flex-col lg:flex-row items-center">
-                <img src="" alt="build-icon">
-                <div class="flex flex-col items-center lg:items-start">
-                    <h4>BUILD</h4>
-                    <h5 class="text-center">Websites & web apps</h5>
-                    <p class="hidden lg:block">I build digital products for individuals, small businesses, and startups.</p>
-                    <button>Explore development →</button>
-                </div>
-            </div>
-            <div class="flex flex-col lg:flex-row items-center">
-                <img src="" alt="build-icon">
-                <div class="flex flex-col items-center lg:items-start">
-                    <h4>BUILD</h4>
-                    <h5 class="text-center">Websites & web apps</h5>
-                    <p class="hidden lg:block">I build digital products for individuals, small businesses, and startups.</p>
-                    <button>Explore development →</button>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer>
-
-
-    </footer>
+  var dr=document.querySelectorAll('.draw');
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('seen');io.unobserve(e.target)}})},{threshold:.6});dr.forEach(function(x){io.observe(x)})}
+  else dr.forEach(function(x){x.classList.add('seen')});
+})();
+</script>
 </body>
 </html>
