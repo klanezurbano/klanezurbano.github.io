@@ -6,6 +6,9 @@
     <title>Klane Zurbano</title>
     
     <!-- IMPORTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     
@@ -33,10 +36,13 @@
             /* Optional UI colors */
             --color-border: var(--color-ink);
             --color-muted: #6F6963;
+
+            /* Typography */
+            --font-sans: "Plus Jakarta Sans", sans-serif;
         }
     </style>
 </head>
-<body class="bg-background">
+<body class="bg-background text-foreground font-sans">
     <header class="flex justify-between items-center px-5 lg:px-10 lg:my-3">
         <a href="index.html" class="w-50">
             <img src="./images/klane-zurbano-handwritten.png" alt="klane-zurbano-handwritten">
@@ -94,7 +100,7 @@
                 <hr class="lg:hidden">
 
                 <!-- TODO: FIX BEHAVIOR ON BUTTON CLICK -->
-                <button class="bg-primary mx-2 my-4 px-5 py-1 rounded-lg">Let's Talk →</button>
+                <button class="bg-primary text-primary-foreground font-semibold mx-2 my-4 px-5 py-1 rounded-lg">Let's Talk →</button>
             </div>
         </nav>
 
@@ -103,11 +109,11 @@
     <main>
         <!-- HERO SECTION -->
         <section class="flex flex-col lg:flex-row-reverse">
-            <img src="" alt="hero-img">
-            <div class="flex flex-col items-start">
-                <h3>Software developer & musician<span>.</span></h3>
+            <img src="./images/hero-img.png" alt="hero-img" class="lg:w-3/5">
+            <div class="flex flex-col gap-3 lg:gap-8 items-start lg:justify-center m-5 lg:mx-15">
+                <h3 class="text-3xl font-extrabold">Software developer<br>& musician<span>.</span></h3>
                 <p>I like building things — sometimes with logic, sometimes with creativity. I build websites and web apps, write original songs, and perform live for events.</p>
-                <button>See what I do →</button>
+                <button class="bg-primary text-primary-foreground font-semibold px-5 py-1 rounded-lg">See what I do →</button>
             </div>
         </section>
 
